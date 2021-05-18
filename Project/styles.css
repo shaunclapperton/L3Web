@@ -106,9 +106,23 @@ section {
 h1 {
    font-family: 'Krona One', sans-serif;
     padding: 1vh; 
+    text-align: center;
 }
 
 p {
      font-family: 'Krona One', sans-serif;
     padding: .2vw;
+    text-align: center;
 }
+
+.products {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw ;
+    grid-gap: 120px;
+    list-style: none;
+}
+
+.products li img {
+    width: 100%;
+}
+
