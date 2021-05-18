@@ -40,6 +40,7 @@ nav img {
 }
 
 section {
+    
     display: grid;
     grid-template-columns: 20vw 25vw 25vw 20vw;
     grid-template-rows: 10vh 35vh 35vh 10vh;
@@ -116,10 +117,13 @@ p {
 }
 
 .products {
+    width: 90%;
+    margin: 0px auto;
     display: grid;
     grid-template-columns: 25vw 25vw 25vw ;
     grid-gap: 120px;
     list-style: none;
+    padding: 20px 0px;
 }
 
 .products li img {
