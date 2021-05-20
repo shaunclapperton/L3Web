@@ -108,6 +108,8 @@ h1 {
    font-family: 'Krona One', sans-serif;
     padding: 1vh; 
     text-align: center;
+    display: inline-block;
+        margin: 0px 20px;
 }
 
 p {
@@ -128,5 +130,52 @@ p {
 
 .products li img {
     width: 100%;
+}
+
+
+ul {
+    margin: 0px auto;;
+    padding: 0px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#cartProducts {
+    display: block;
+}
+
+
+
+
+li {
+        width: 100%;
+        background-color: grey;
+        list-style: none;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    li img {
+        width: 100%;
+    }
+
+    
+
+    h2 {
+        font-family: 'Krona One', sans-serif;
+        
+        display: inline-block;
+        color: red;
+    }
+
+footer {
+     background-color: black;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: 4vh;
+    grid-auto-rows: fill;
+    
 }
 
